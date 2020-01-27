@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Tele2(props) {
+export default function Tarrif(props) {
     return (
         <div className="tarrifs__block">
             <p><b>{props.title}</b></p>

@@ -1,5 +1,5 @@
 import React from 'react'
-import Tele2 from './components/tele2/Tele2'
+import Tarrif from './components/tele2/Tarrif'
 
 export default function App() {
     const tarrifs = [
@@ -9,9 +9,9 @@ export default function App() {
     ]
     return (
         <div>
-            <Tele2 id={tarrifs[0].id} title={tarrifs[0].title} price={tarrifs[0].price} minutes={tarrifs[0].minutes} text={tarrifs[0].text} gb={tarrifs[0].gb}/>
-            <Tele2 id={tarrifs[1].id} title={tarrifs[1].title} price={tarrifs[1].price} minutes={tarrifs[1].minutes} text={tarrifs[1].text} gb={tarrifs[1].gb}/>
-            <Tele2 id={tarrifs[2].id} title={tarrifs[2].title} price={tarrifs[2].price} minutes={tarrifs[2].minutes} text={tarrifs[2].text} gb={tarrifs[2].gb}/>
+            <Tarrif id={tarrifs[0].id} title={tarrifs[0].title} price={tarrifs[0].price} minutes={tarrifs[0].minutes} text={tarrifs[0].text} gb={tarrifs[0].gb}/>
+            <Tarrif id={tarrifs[1].id} title={tarrifs[1].title} price={tarrifs[1].price} minutes={tarrifs[1].minutes} text={tarrifs[1].text} gb={tarrifs[1].gb}/>
+            <Tarrif id={tarrifs[2].id} title={tarrifs[2].title} price={tarrifs[2].price} minutes={tarrifs[2].minutes} text={tarrifs[2].text} gb={tarrifs[2].gb}/>
         </div>
     )
 }
